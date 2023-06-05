@@ -39,8 +39,6 @@ a {
   font-family: 'STXinwei';
   font-weight: bold;
   font-size: 3vw;
-  /* vw是我为了直接与窗口适应在网上找的一直单位计量方式，百度翻译为： 
-  vw（Viewport Width）、vh(Viewport Height)是基于视图窗口的单位，是css3的一部分，基于视图窗口的单位，除了vw、vh还有vmin、vmax。 */
   color: skyblue;
 
   text-align: center;

@@ -1,0 +1,175 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    background: url(./徐祺个人简历/images/微信图片_20230531203342\(1\)\(1\).jpg);
+}
+
+.header {
+    color: rgb(26, 86, 239); /* 设置文本颜色 */
+    padding: 20px; /* 设置内补白 */
+    text-align: center; /* 设置文本居中对齐 */
+    font-size: 36px; /* 设置字体大小 */
+    font-weight: bold; /* 设置文字加粗 */
+    height: 150px;
+    width: 100%;
+    font-family: 'STXinwei';
+    box-sizing: border-box;
+    border-bottom: 1px solid beige;
+    background-color: skyblue;
+    background: url(../images/background_1.jpg);
+}
+
+
+
+   
+  nav {
+    background-color: blue;
+    color: white;
+  }
+  
+
+ul {
+
+list-style: none;
+margin: 0;
+padding: 0;
+}
+p{
+font-family: 'STXinwei';
+font-size: large;
+}
+li{
+display: inline-block;
+font-family: 'STXinwei';
+}
+
+
+li a {
+display: block;
+color:rgb(22, 177, 197);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+
+/* 
+
+.banner{
+    width: 1280px;
+    margin: 0 auto;
+    height: 112px;
+    align-items: center;
+    text-align: center;
+    line-height: 312px;
+    color: navy;
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    background: url(./徐祺个人简历/images/QQ图片20230531155439\(1\).jpg);
+} */
+.foot-box{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: beige;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: aliceblue;
+}
+.introduce.l img.code{
+    border-radius: 0;
+}
+.myform{
+    margin-top: 50px;
+}
+
+.main-box{
+    width: 20px auto;
+    width: 1300px;
+}
+.flex-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.block{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.desc{
+    position: absolute;
+    opacity: 0;
+    z-index: 3;
+    top:0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    cursor: pointer;
+    background: skyblue;
+    transition: opacity 0.5s ease-in;
+    color: rgb(53, 26, 123);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 300px;
+    letter-spacing: 3px;
+}
+.block:hover .desc{
+    opacity: 1;
+}
+.block .pic{
+    transition: all 0.3s ease-in;
+}
+.block:hover img{
+    transform: scale(1.2);
+}
+table {
+    margin-left:      20px;
+    margin-right:     20px;
+    border:           thin solid black;
+    caption-side:     bottom;
+    border-collapse:  collapse;
+    display: flex;
+    align-items: center;
+  }
+  
+  table table th {
+    background-color: white;
+  }
+  
+  td, th {
+    width: 300px;
+    border:           thin dotted gray;
+    padding:          50px;
+  }
+  
+  th {
+    background-color: skyblue;
+  }
+  
+  
+  .cellcolor {
+    background-color: #fcba7a;
+  }
+  

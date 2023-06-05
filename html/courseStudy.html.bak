@@ -10,7 +10,7 @@
 
   <body>
             <!-- html5的最新类型header，表示页面的头部部分-->
-    <header class="header">
+    <header>
         <h1>课程学习</h1>
     </header>    
 
@@ -20,10 +20,8 @@
             <li><a href="author.html">身份简介</a>     </li>
             <li><a href="courseStudy.html">课程学习</a></li>
             <li><a href="mentalJourney.html">心路历程</a></li>
-            <li><a href="memory.html">朝花夕拾</a></li>
-            <li><a href="contact.html">高山流水</a></li>
+         
         </ul>
-    </div>    
 
 
     <main>
@@ -117,9 +115,6 @@
         </section>
 
     </main>
-    <footer>
-        <p>Copyright©朱映臣(LeopardCatCat) All Rights Reserved.</p>
-    </footer>
 
 </body>
 </html>

@@ -9,15 +9,19 @@ html {
     font-family: Arial, Helvetica, sans-serif;
   }
   .header {
-    background-color: greenyellow; /* 设置背景颜色 */
-    color: white; /* 设置文本颜色 */
-    /* padding: 20px; 设置内补白 */
+    color: rgb(26, 86, 239); /* 设置文本颜色 */
+    padding: 20px; /* 设置内补白 */
     text-align: center; /* 设置文本居中对齐 */
     font-size: 36px; /* 设置字体大小 */
+    font-weight: bold; /* 设置文字加粗 */
+    height: 150px;
+    width: 100%;
     font-family: 'STXinwei';
-    /* font-weight: bold; 设置文字加粗 */
-    height: 100px;
-  }
+    box-sizing: border-box;
+    border-bottom: 1px solid beige;
+    background-color: skyblue;
+    background: url(../images/background_1.jpg);
+}
   
 ul {
     list-style: none;
@@ -42,7 +46,6 @@ font-family: 'STXinwei';
    
     
    
-  }
  .ps{
   font-style: italic;
   font-weight: 100;
