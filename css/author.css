@@ -27,6 +27,7 @@ body {
   }
   p{
     font-family: 'STXinwei';
+    font-size: large;
   }
   li{
     display: inline-block;
